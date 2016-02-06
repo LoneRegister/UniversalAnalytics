@@ -7,7 +7,7 @@
 -->
 <layout version="0.1.0">
     <default>
-        <reference name="before_body_end" before="-">
+        <reference name="head" before="-">
             <block type="core/text_list" name="universalanalytics" as="universalanalytics" after="-">
                 <block type="core/template" name="universalanalytics_sitewide" as="universalanalytics_sitewide"
                        template="blueacorn/universalanalytics/sitewideJs.phtml">
